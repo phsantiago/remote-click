@@ -1,17 +1,27 @@
 {
-  "name": "public",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
-    "react-fontawesome": "^1.6.1",
-    "react-scripts": "1.0.13"
-  },
+  "name": "remote-click",
+  "version": "1.0.0",
+  "description": "performs a click via http",
+  "main": "server.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  }
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phsantiago/remote-click.git"
+  },
+  "keywords": [
+    "remote-click",
+    "robotjs",
+    "click",
+    "bot",
+    "http"
+  ],
+  "author": "phsantiago",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phsantiago/remote-click/issues"
+  },
+  "homepage": "https://github.com/phsantiago/remote-click#readme"
 }

@@ -5,7 +5,7 @@ import './App.css';
 
 class App extends Component {
   performClick(){
-    axios.get('http://localhost/click')
+    axios.get(`http://${window.REMOTE_ADDR}/click`)
   }
   render() {
     return (
