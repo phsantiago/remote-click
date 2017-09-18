@@ -23,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/phsantiago/remote-click/issues"
   },
-  "homepage": "https://github.com/phsantiago/remote-click#readme"
+  "homepage": "https://github.com/phsantiago/remote-click#readme",
+  "dependencies": {
+    "dns": "^0.2.2",
+    "express": "^4.15.4",
+    "path": "^0.12.7",
+    "robotjs": "^0.4.7"
+  }
 }
