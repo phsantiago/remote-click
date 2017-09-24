@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var robot = require("robotjs");
 var express = require("express");
 const path = require('path');
